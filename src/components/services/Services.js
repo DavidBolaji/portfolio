@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../card/Card";
 import Container from "../container/Container";
+import Tab from "../tab/Tab";
 import "./Services.css";
 
 const Services = () => {
@@ -11,20 +11,15 @@ const Services = () => {
           Offer |<br /> Services
         </h2>
         <p>
-          Hello everyone! Here is the new exploration of the Pertoo - Personal
-          portfolio website. What do you think? Don't forget to press (L) if you
-          like it and feel free to comment.
+          I help ambitious business like yours generate more profits by by
+          building applications with outstanding features that will help drive
+          sales.
         </p>
       </div>
       <div className="service-card">
-        <div>
-          <Card name="Front end Web Design" />
-          <Card name="Back end Web Design" />
-        </div>
-        <div>
-          <Card name="Front end Web Design" />
-          <Card name="Back end Web Design" />
-        </div>
+        <Tab num="01/" text="Web UI/UX Design" />
+        <Tab num="02/" text="Mobile App UI/UX Design" />
+        <Tab num="03/" text="Dashboard & Saas Design" />
       </div>
     </Container>
   );

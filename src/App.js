@@ -1,12 +1,19 @@
-import React from 'react'
-import Services from './components/services/Services'
+import React from "react";
+import Hero from "./components/hero/Hero";
+import Project from "./components/projects/Project";
+import Services from "./components/services/Services";
+import Skills from "./components/skills/Skills";
 
 const App = () => {
   return (
     <>
+      <Hero />
+      <Skills />
       <Services />
-    </>
-  )
-}
 
-export default App
+      <Project />
+    </>
+  );
+};
+
+export default App;

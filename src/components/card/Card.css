@@ -3,10 +3,11 @@
   border: 1px solid rgb(21, 207, 241);
   /* max-width: 40%; */
   background-color: rgba(21, 207, 241, 0.6);
-  border-radius: 10px;
   box-shadow: 5px 8px 10px 4px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   backdrop-filter: blur(3.4px);
   -webkit-backdrop-filter: blur(2.4px);
   margin-bottom: 70px;
