@@ -17,9 +17,9 @@ const Services = () => {
         </p>
       </div>
       <div className="service-card">
-        <Tab num="01/" text="Web UI/UX Design" />
-        <Tab num="02/" text="Mobile App UI/UX Design" />
-        <Tab num="03/" text="Dashboard & Saas Design" />
+        <Tab num="01/" text="Design" />
+        <Tab num="02/" text="SEO" />
+        <Tab num="03/" text="Front-End" />
       </div>
     </Container>
   );

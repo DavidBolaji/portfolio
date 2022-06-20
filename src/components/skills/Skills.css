@@ -45,7 +45,7 @@
 
 .skill-card {
   padding: 10px;
-  width: 100px;
+  width: 80px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -84,9 +84,14 @@
   color: #000;
   height: 10%;
   padding-top: 20px;
+  font-size: 12px;
   /* font-weight: 900; */
   text-align: center;
   text-transform: uppercase;
+}
+
+.skills-card2 {
+  padding-right: 30px;
 }
 
 /* .skills-card > * {

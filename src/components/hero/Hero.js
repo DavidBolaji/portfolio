@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <Container className="hero">
       <div className="hero-cont">
-        <h1>I have web Development Experience</h1>
+        <h1>Talk is cheap, show me the code</h1>
         <p>
           Hi! my name is David and i am a web Developer. My goal is to create
           outstanding, High performance and scalable applicationsis what am all
@@ -18,7 +18,6 @@ const Hero = () => {
         </p>
         <div>
           <button>let's Talk</button>
-          <button>Download cv</button>
         </div>
       </div>
       <div className="hero-img">
