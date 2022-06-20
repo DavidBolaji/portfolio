@@ -9,7 +9,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Hero = () => {
   return (
     <Container className="hero">
-      <div className="hero-cont">
+      <div className="hero-cont" data-aos="fade-in" data-aos-duration="1500">
         <h1>Talk is cheap, show me the code</h1>
         <p>
           Hi! my name is David and i am a web Developer. My goal is to create
@@ -24,7 +24,12 @@ const Hero = () => {
         <div className="hexagon-mine">
           <div className="hexagon"></div>
           <div className="hex-img">
-            <img src={David} alt="David Ologunleko" />
+            <img
+              src={David}
+              alt="David Ologunleko"
+              data-aos="slide-left"
+              data-aos-duration="1500"
+            />
           </div>
         </div>
         <div className="close"></div>

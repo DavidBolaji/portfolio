@@ -4,7 +4,7 @@ import "./Tab.css";
 
 const Tab = (props) => {
   return (
-    <div className="tab">
+    <div className="tab" data-aos="fade-in" data-aos-duration="1500">
       <div className="num">
         <p>{props.num}</p>
       </div>

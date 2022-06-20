@@ -10,7 +10,7 @@ import Experience from "../experience/Experience";
 const Skills = () => {
   return (
     <Container className="skills">
-      <div className="skills-cont">
+      <div className="skills-cont" data-aos="fade-in" data-aos-duration="1500">
         <div className="skills-text">
           <h2>
             Skills &<br /> Experience
@@ -24,11 +24,17 @@ const Skills = () => {
           </p>
         </div>
         <div className="skills-skill">
-          <h4>skills</h4>
+          <h4 data-aos="fade-in" data-aos-duration="1500">
+            skills
+          </h4>
           <div className="skill-holder">
             <div className="skills-card">
               <Tilt>
-                <div className="skill-card">
+                <div
+                  className="skill-card"
+                  data-aos="fade-in"
+                  data-aos-duration="1500"
+                >
                   <div className="skill-img">
                     <SiJavascript style={{ fontSize: 40, color: "#f5de19" }} />
                   </div>
@@ -36,7 +42,11 @@ const Skills = () => {
                 </div>
               </Tilt>
               <Tilt>
-                <div className="skill-card">
+                <div
+                  className="skill-card"
+                  data-aos="fade-in"
+                  data-aos-duration="1500"
+                >
                   <div className="skill-img">
                     <ImHtmlFive style={{ fontSize: 40, color: "#e44c23" }} />
                   </div>
@@ -44,7 +54,11 @@ const Skills = () => {
                 </div>
               </Tilt>
               <Tilt>
-                <div className="skill-card">
+                <div
+                  className="skill-card"
+                  data-aos="fade-in"
+                  data-aos-duration="1500"
+                >
                   <div className="skill-img">
                     <IoLogoCss3 style={{ fontSize: 40, color: "#2b64f3" }} />
                   </div>
@@ -54,7 +68,11 @@ const Skills = () => {
             </div>
             <div className="skills-card">
               <Tilt>
-                <div className="skill-card">
+                <div
+                  className="skill-card"
+                  data-aos="fade-in"
+                  data-aos-duration="1500"
+                >
                   <div className="skill-img">
                     <SiSemanticuireact
                       style={{ fontSize: 40, color: "#54d4fc" }}
@@ -64,7 +82,11 @@ const Skills = () => {
                 </div>
               </Tilt>
               <Tilt>
-                <div className="skill-card">
+                <div
+                  className="skill-card"
+                  data-aos="fade-in"
+                  data-aos-duration="1500"
+                >
                   <div className="skill-img">
                     <IoLogoNodejs
                       style={{ fontSize: 40, color: "rgb(70,135,69)" }}
@@ -74,7 +96,11 @@ const Skills = () => {
                 </div>
               </Tilt>
               <Tilt>
-                <div className="skill-card">
+                <div
+                  className="skill-card"
+                  data-aos="fade-in"
+                  data-aos-duration="1500"
+                >
                   <div className="skill-img">
                     <SiSass style={{ fontSize: 40, color: "#d46c9c" }} />
                   </div>

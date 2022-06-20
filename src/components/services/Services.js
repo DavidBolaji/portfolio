@@ -7,10 +7,10 @@ const Services = () => {
   return (
     <Container className="services">
       <div className="service-text">
-        <h2>
+        <h2 data-aos="fade-in" data-aos-duration="2000">
           Offer |<br /> Services
         </h2>
-        <p>
+        <p data-aos="fade-in" data-aos-duration="1500">
           I help ambitious business like yours generate more profits by by
           building applications with outstanding features that will help drive
           sales.

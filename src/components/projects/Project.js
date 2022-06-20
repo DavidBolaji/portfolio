@@ -9,13 +9,15 @@ const Project = () => {
   return (
     <Container className="proj">
       <div className="proj-one">
-        <h1>Latest Projects</h1>
+        <h1 data-aos="fade-in" data-aos-duration="2000">
+          Latest Projects
+        </h1>
         <ProjCard icon={Ecom} />
       </div>
-      <div className="proj-two">
+      <div className="proj-two" data-aos="fade-in">
         <ProjCard icon={Calc} />
       </div>
-      <div className="proj-three">
+      <div className="proj-three" data-aos="fade-in">
         <ProjCard icon={Calc} />
       </div>
     </Container>
