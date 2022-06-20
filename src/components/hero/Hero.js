@@ -28,7 +28,7 @@ const Hero = () => {
               src={David}
               alt="David Ologunleko"
               data-aos="slide-left"
-              data-aos-duration="1500"
+              data-aos-duration="500"
             />
           </div>
         </div>
