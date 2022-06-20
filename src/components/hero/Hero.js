@@ -24,12 +24,7 @@ const Hero = () => {
         <div className="hexagon-mine">
           <div className="hexagon"></div>
           <div className="hex-img">
-            <img
-              src={David}
-              alt="David Ologunleko"
-              data-aos="slide-left"
-              data-aos-duration="500"
-            />
+            <img src={David} alt="David Ologunleko" data-aos="slide-left" />
           </div>
         </div>
         <div className="close"></div>

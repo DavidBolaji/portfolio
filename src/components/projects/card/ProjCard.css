@@ -9,18 +9,20 @@
 }
 
 .proj-card-img {
-  width: 100%;
+  width: 300px;
 }
 
 .proj-card-img-cont {
-  width: 300px;
-  height: 300px;
+  width: 250px;
+  height: 280px;
+
+  background-position: center;
   overflow: hidden;
 }
 
 .proj-card-img-cont img {
   object-fit: cover;
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
